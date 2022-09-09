@@ -1,0 +1,172 @@
+    .manage{
+        
+        &__box{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__restange{
+            border-top: 2px solid #33323D;
+            width: 350px;
+            height: 1px;
+            opacity: 0.15;
+            margin-top: 85px;
+            margin-bottom: 75px;
+        }
+
+        &__restange1{
+            border-bottom: 2px solid #33323D;
+            width: 700px;
+            height: 1px;
+            opacity: 0.15;
+            margin-top: 90px;
+            margin-bottom: 15px;
+        }
+
+        &__list{
+            margin-left: 172px;
+        }
+
+        &__text{
+            width: 42%;
+            font-family: 'Public Sans';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: #33323D;
+            opacity: 0.8;
+        }
+
+        &__title{
+            font-family: 'Ibarra Real Nova';
+            font-weight: 700;
+            font-size: 40px;
+            color: #33323D;
+        }
+
+        &__btn{
+            font-family: 'Public Sans';
+            font-weight: 400;
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #33323D;
+            border: 1px solid #33323D;
+            padding: 15px 25px;
+            background-color: transparent;
+            margin-top: 15px;
+        }
+
+        &__btn:hover{
+            color: aliceblue;
+            background-color: #78787a;
+            transition: all 0.4s ease-in;
+            cursor: pointer;
+            border: 1px solid #78787a;
+        }
+
+        &__btn:active{
+            color: aliceblue;
+            background-color: #33323D;
+            transition: all 0.4s ease-in;
+            cursor: pointer;
+        }
+
+        &__button{
+            font-family: 'Public Sans';
+            font-weight: 400;
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #33323D;
+            border: 1px solid #33323D;
+            padding: 15px 25px;
+            background-color: transparent;
+            display: none;
+        }
+
+        &__pic{
+            display: none;
+        }
+
+    }
+
+
+    @media (max-width:768px){
+        .manage{
+            
+            &__box{
+                display: flex;
+                flex-direction: column;
+            }
+            
+        &__img{
+            display: none;
+        }
+
+        &__pic{
+            margin-top: 100px;
+            display: flex;
+            max-width: 90%;
+        }
+
+        &__button{
+            display: flex;
+        }
+        
+        &__button:hover{
+            color: aliceblue;
+            background-color: #78787a;
+            transition: all 0.4s ease-in;
+            cursor: pointer;
+            border: 1px solid #78787a;
+        }
+
+        &__button:active{
+            color: aliceblue;
+            background-color: #33323D;
+            transition: all 0.4s ease-in;
+            cursor: pointer;
+        }
+
+        &__paragraph{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Public Sans';
+            font-weight: 700;
+            color: #5FB4A2;
+            margin-top: 0px;
+        }
+
+        &__text{
+            width: 339px;
+            height: 150px;
+        }
+
+        &__mm{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__restange{
+            display: none;
+        }
+
+        &__restange1{
+            display: none;
+        }
+
+        &__btn{
+            display: none;
+        }
+
+        &__case{
+            display: flex;
+        }
+
+    }
+    }

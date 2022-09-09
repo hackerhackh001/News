@@ -1,0 +1,49 @@
+.fylo{
+
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__item1{
+        margin-right: 200px;
+    }
+
+    &__title{
+        font-family: 'Ibarra Real Nova';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 42px;
+        color: #33323D;
+    }
+
+    &__text{
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #33323D;
+        opacity: 0.8;
+        width: 50%;
+    }
+
+    &__restange{
+        border-top: 2px solid #33323D;
+        width: 450px;
+        height: 1px;
+        opacity: 0.15;
+        margin-top: -190px;
+        margin-bottom: 100px;
+    }
+
+    &__restange1{
+        border-bottom: 2px solid #33323D;
+        width: 475px;
+        height: 1px;
+        opacity: 0.15;
+        margin-top: 100px;
+        margin-bottom: -190px;
+    }
+}
